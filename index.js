@@ -7,3 +7,7 @@ const writeToFile = (userInput) => {
       error ? console.log("Error!") : console.log("Success!")
     );
   };
+
+  const promptUser = () => {
+    return inquirer.prompt(questionBank.questionBank);
+  };
