@@ -19,3 +19,22 @@ const renderLicenseBadge = (license) => {
   }
   return licenseMarkdownText;
 };
+
+const renderLicenseLink = (license) => {
+  let licenseLinkURL;
+  switch (license) {
+    case "MIT License":
+      licenseLinkURL = "https://opensource.org/licenses/MIT";
+      break;
+    case "GNU General Public License v3.0":
+      licenseLinkURL = "https://www.gnu.org/licenses/gpl-3.0";
+      break;
+    case "Apache License 2.0":
+      licenseLinkURL = "https://opensource.org/licenses/Apache-2.0";
+      break;
+    case "None":
+      licenseLinkURL = "";
+      break;
+  }
+  return licenseLinkURL;
+};
