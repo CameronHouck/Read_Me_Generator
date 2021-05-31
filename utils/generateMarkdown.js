@@ -102,3 +102,7 @@ const generateMarkdown = (data) => {
     For issues, questions, and comments please contact ${email} or visit [https://github.com/${questions}](https://github.com/${questions}) 
     `;
 };
+
+module.exports = {
+  generateMarkdown: generateMarkdown,
+};
