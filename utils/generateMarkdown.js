@@ -58,11 +58,11 @@ const generateMarkdown = (data) => {
   return `
 # Project Name:
   
-    ${name}
+${name}
   
 ## License
   
-    ${licenseBadge} : [View License](${licenseLinkURL})
+${licenseBadge} : [View License](${licenseLinkURL})
   
 ## Table of Contents
   
@@ -77,25 +77,25 @@ const generateMarkdown = (data) => {
   
 ## Description
   
-    ${description}
+${description}
   
 ## Installation
   
 Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
   
-      ${installation}
+${installation}
   
 ## Usage
   
-    ${usage}
+${usage}
   
 ## Contributions 
   
-    ${contributions}
+${contributions}
   
 ## Tests 
   
-    ${tests}
+${tests}
   
 ## Questions 
   
@@ -105,3 +105,4 @@ For issues, questions, and comments please contact ${email} or visit [https://gi
 module.exports = {
   generateMarkdown: generateMarkdown,
 };
+
