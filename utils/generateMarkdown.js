@@ -56,51 +56,50 @@ const generateMarkdown = (data) => {
   const licenseLinkURL = renderLicenseLink(license);
 
   return `
-    # Project Name:
+# Project Name:
   
     ${name}
   
-    ## License
+## License
   
     ${licenseBadge} : [View License](${licenseLinkURL})
   
-    ## Table of Contents
+## Table of Contents
   
-    - [Title](#Project-Name)
-    - [License](#License)
-    - [Description](#Description)
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [Contributions](#Contributions)
-    - [Tests](#Tests)
-    - [Questions](#Questions)
+- [Title](#Project-Name)
+- [License](#License)
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributions](#Contributions)
+- [Tests](#Tests)
+- [Questions](#Questions)
   
-    ## Description
+## Description
   
     ${description}
   
-    ## Installation
+## Installation
   
-    Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
+Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
   
       ${installation}
   
-    ## Usage
+## Usage
   
     ${usage}
   
-    ## Contributions 
+## Contributions 
   
     ${contributions}
   
-    ## Tests 
+## Tests 
   
     ${tests}
   
-    ## Questions 
+## Questions 
   
-    For issues, questions, and comments please contact ${email} or visit [https://github.com/${questions}](https://github.com/${questions}) 
-    `;
+For issues, questions, and comments please contact ${email} or visit [https://github.com/${questions}](https://github.com/${questions})`;
 };
 
 module.exports = {
