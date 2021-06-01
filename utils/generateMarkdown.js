@@ -56,52 +56,52 @@ const generateMarkdown = (data) => {
   const licenseLinkURL = renderLicenseLink(license);
 
   return `
-    # Project Name:
+# Project Name:
   
-    ${name}
+${name}
   
-    ## License
+## License
   
-    ${licenseBadge} : [View License](${licenseLinkURL})
+${licenseBadge} : [View License](${licenseLinkURL})
   
-    ## Table of Contents
+## Table of Contents
   
-    - [Title](#Project-Name)
-    - [License](#License)
-    - [Description](#Description)
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [Contributions](#Contributions)
-    - [Tests](#Tests)
-    - [Questions](#Questions)
+- [Title](#Project-Name)
+- [License](#License)
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributions](#Contributions)
+- [Tests](#Tests)
+- [Questions](#Questions)
   
-    ## Description
+## Description
   
-    ${description}
+${description}
   
-    ## Installation
+## Installation
   
-    Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
+Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
   
-      ${installation}
+${installation}
   
-    ## Usage
+## Usage
   
-    ${usage}
+${usage}
   
-    ## Contributions 
+## Contributions 
   
-    ${contributions}
+${contributions}
   
-    ## Tests 
+## Tests 
   
-    ${tests}
+${tests}
   
-    ## Questions 
+## Questions 
   
-    For issues, questions, and comments please contact ${email} or visit [https://github.com/${questions}](https://github.com/${questions}) 
-    `;
+For issues, questions, and comments please contact ${email} or visit [https://github.com/${questions}](https://github.com/${questions})`;
 };
+
 
 module.exports = {
   generateMarkdown: generateMarkdown,
