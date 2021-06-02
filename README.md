@@ -1,16 +1,17 @@
-# Project Name:
 
+# Project Name:
+  
 read me generator
 
-# DEMO
-https://www.youtube.com/watch?v=zHXmlYD9O8U
-
+## DEMO
+app in action: https://youtu.be/DzlDR3HuR8k
+  
 ## License
-
-    [View License]()
-
+  
+undefined : [View License]()
+  
 ## Table of Contents
-
+  
 - [Title](#Project-Name)
 - [License](#License)
 - [Description](#Description)
@@ -19,29 +20,29 @@ https://www.youtube.com/watch?v=zHXmlYD9O8U
 - [Contributions](#Contributions)
 - [Tests](#Tests)
 - [Questions](#Questions)
-
-  ## Description
-
-  simple read me generator so i dont have to make my own
-
-  ## Installation
-
-  Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
-
-  do npm i to download dependices
-
-  ## Usage
-
-  justa read me generator
-
-  ## Contributions
-
-  none
-
-  ## Tests
-
-  yes
-
-  ## Questions
-
-  For issues, questions, and comments please contact cameronhouck1@gmail.com or visit [https://github.com/CameronHouck](https://github.com/CameronHouck)
+  
+## Description
+  
+a read me generator so you don't have to make your own
+  
+## Installation
+  
+Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
+  
+do npm i in your terminal to install appropiate dependices
+  
+## Usage
+  
+made by me hehehe
+  
+## Contributions 
+  
+CameronHouck
+  
+## Tests 
+  
+have fun
+  
+## Questions 
+  
+If you have any questions comments or issus please contact: cameronhouck1@gmail.com or visit: [https://github.com/CameronHouck](https://github.com/CameronHouck)
