@@ -2,12 +2,12 @@ exports.questionBank = [
     {
       type: "input",
       name: "name",
-      message: "Enter project name: ",
+      message: "Enter your project's name: ",
     },
     {
       type: "list",
       name: "license",
-      message: "Choose a licence type: ",
+      message: "Choose what type of license you want: ",
       choices: [
         "Apache License 2.0",
         "GNU General Public License v3.0",
@@ -19,36 +19,31 @@ exports.questionBank = [
     {
       type: "input",
       name: "description",
-      message: "Write project description: ",
+      message: "Give the project a description: ",
     },
     {
       type: "input",
       name: "installation",
-      message: "Write installation instructions: ",
+      message: "Instructions of how to install: ",
     },
     {
       type: "input",
       name: "usage",
-      message: "Enter project usage information: ",
-    },
-    {
-      type: "input",
-      name: "contributions",
-      message: "Enter project contribution guidelines: ",
+      message: "Enter project about info: ",
     },
     {
       type: "input",
       name: "tests",
-      message: "Enter project test instructions: ",
+      message: "Enter testing project instructions: ",
     },
     {
       type: "input",
       name: "email",
-      message: "Enter your email address: ",
+      message: "What is your email adress?: ",
     },
     {
       type: "input",
       name: "questions",
-      message: "Enter your github username as contact information: ",
+      message: "What is your github username so you can be contacted: ",
     },
   ];
