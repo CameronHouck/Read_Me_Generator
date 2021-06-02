@@ -28,6 +28,11 @@ exports.questionBank = [
     },
     {
       type: "input",
+      name: "contributions",
+      message: "Who contributed to this project?",
+    },
+    {
+      type: "input",
       name: "usage",
       message: "Enter project about info: ",
     },
