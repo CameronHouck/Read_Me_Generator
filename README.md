@@ -1,14 +1,13 @@
-
 # Project Name:
-  
-    hi
-  
+
+read me generator
+
 ## License
-  
-     : [View License]()
-  
+
+    [View License]()
+
 ## Table of Contents
-  
+
 - [Title](#Project-Name)
 - [License](#License)
 - [Description](#Description)
@@ -17,29 +16,29 @@
 - [Contributions](#Contributions)
 - [Tests](#Tests)
 - [Questions](#Questions)
-  
-## Description
-  
-    hi
-  
-## Installation
-  
-Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
-  
-      hi
-  
-## Usage
-  
-    hi
-  
-## Contributions 
-  
-    hi
-  
-## Tests 
-  
-    hi
-  
-## Questions 
-  
-For issues, questions, and comments please contact hi or visit [https://github.com/hi](https://github.com/hi)
+
+  ## Description
+
+  simple read me generator so i dont have to make my own
+
+  ## Installation
+
+  Navigate to the root directory of this repository and run the following commands to install necessary dependencies:
+
+  do npm i to download dependices
+
+  ## Usage
+
+  justa read me generator
+
+  ## Contributions
+
+  none
+
+  ## Tests
+
+  yes
+
+  ## Questions
+
+  For issues, questions, and comments please contact cameronhouck1@gmail.com or visit [https://github.com/CameronHouck](https://github.com/CameronHouck)

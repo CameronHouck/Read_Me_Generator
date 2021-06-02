@@ -1,44 +1,45 @@
+//lists the badge images created for matching user choice.
 const renderLicenseBadge = (license) => {
-  let licenseMarkdownText;
+  let licenseMarkdownWord;
   switch (license) {
-    case "MIT License":
-      licenseMarkdownText =
-        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-      break;
     case "GNU General Public License v3.0":
-      licenseMarkdownText =
+      licenseMarkdownWord =
         "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
       break;
+    case "MIT License":
+      licenseMarkdownWord =
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      break;
     case "Apache License 2.0":
-      licenseMarkdownText =
+      licenseMarkdownWord =
         "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       break;
     case "None":
-      licenseMarkdownText = "";
+      licenseMarkdown = "";
       break;
   }
-  return licenseMarkdownText;
+  return licenseMarkdownWord;
 };
-
+//license urls to redirect user to licenses webpages and about info.
 const renderLicenseLink = (license) => {
-  let licenseLinkURL;
+  let licenseLinkToURL;
   switch (license) {
-    case "MIT License":
-      licenseLinkURL = "https://opensource.org/licenses/MIT";
-      break;
     case "GNU General Public License v3.0":
-      licenseLinkURL = "https://www.gnu.org/licenses/gpl-3.0";
+      licenseLinkToURL = "https://www.gnu.org/licenses/gpl-3.0";
+      break;
+    case "MIT License":
+      licenseLinkToURL = "https://opensource.org/licenses/MIT";
       break;
     case "Apache License 2.0":
-      licenseLinkURL = "https://opensource.org/licenses/Apache-2.0";
+      licenseLinkToURL = "https://opensource.org/licenses/Apache-2.0";
       break;
     case "None":
-      licenseLinkURL = "";
+      licenseLinkToURL = "";
       break;
   }
-  return licenseLinkURL;
+  return licenseLinkToURL;
 };
-
+//Asks questions in the order presented.
 const generateMarkdown = (data) => {
   const {
     name,
@@ -51,10 +52,10 @@ const generateMarkdown = (data) => {
     email,
     questions,
   } = data;
-
+//displays licenses name and redirection link according to user input.
   const licenseBadge = renderLicenseBadge(license);
-  const licenseLinkURL = renderLicenseLink(license);
-
+  const licenseLinkToURL = renderLicenseLink(license);
+  //Writes down the README including user inputed variables in appropiate locations.
   return `
 # Project Name:
   
@@ -62,7 +63,7 @@ ${name}
   
 ## License
   
-${licenseBadge} : [View License](${licenseLinkURL})
+${licenseBadge} : [View License](${licenseLinkToURL})
   
 ## Table of Contents
   
@@ -99,10 +100,9 @@ ${tests}
   
 ## Questions 
   
-For issues, questions, and comments please contact ${email} or visit [https://github.com/${questions}](https://github.com/${questions})`;
+If you have any questions comments or issus please contact: ${email} or visit: [https://github.com/${questions}](https://github.com/${questions})`;
 };
 
 module.exports = {
   generateMarkdown: generateMarkdown,
 };
-
