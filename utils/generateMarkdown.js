@@ -45,6 +45,7 @@ const generateMarkdown = (data) => {
     name,
     license,
     description,
+    demo,
     installation,
     contributions,
     usage,
@@ -70,6 +71,7 @@ ${licenseBadge} : [View License](${licenseLinkToURL})
 - [Title](#Project-Name)
 - [License](#License)
 - [Description](#Description)
+- [Demo](#Demo)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Contributions](#Contributions)
@@ -77,8 +79,12 @@ ${licenseBadge} : [View License](${licenseLinkToURL})
 - [Questions](#Questions)
   
 ## Description
-  
+
 ${description}
+
+#Demo
+
+${demo}
   
 ## Installation
   
