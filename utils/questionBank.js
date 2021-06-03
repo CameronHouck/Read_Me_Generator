@@ -24,7 +24,7 @@ exports.questionBank = [
   {
     type: "input",
     name: "demo",
-    message: "Put demo link if you have one or type None",
+    message: "Put demo link if you have one or type None:",
   },
   {
     type: "input",
